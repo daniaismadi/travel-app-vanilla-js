@@ -6,6 +6,19 @@ Single page application (SPA) built with Vanilla JS to manage a list of travel d
 2. Add a new destination.
 3. Delete a destination from the list
 
+## Running the app
+
+Clone repository.
+
+Run the following:
+
+```
+npm i
+npx vite
+```
+
+This will start a local server at `http://localhost:5173/`. Navigate to `http://localhost:5173/` on the browser and use the app.
+
 ## Requirements
 
 1. General Functionality:
