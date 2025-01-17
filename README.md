@@ -26,7 +26,7 @@ This will start a local server at `http://localhost:5173/`. Navigate to `http://
    - Maintain the URL state using the browser's History API (`pushState` and `popState`)
 2. Home Page:
    - Display a list of travel destinations.
-   - Use REST Countries API to fetch a list of destinations: https://restcountries.com/v3.1/all
+   - Use a public API to fetch a list of possible cities (I used `https://countriesnow.space/api/v0.1/countries/population/cities`).
    - Provide an input field and a button to add a new destination.
    - Allow the user to delete a destination from the list.
 3. About Page:
