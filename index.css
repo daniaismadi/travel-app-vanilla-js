@@ -1,0 +1,10 @@
+.destinationForm {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.destination {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}

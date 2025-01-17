@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Travel Destinations</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/" id="home-link">Home</a>
+      <a href="/about" id="about-link">About</a>
+    </nav>
+    <div id="app"></div>
+
+    <!-- Template for Routes -->
+    <template id="home">
+      <h1>Home Page</h1>
+      <p>
+        Welcome to the home page. You can add and manage travel destinations
+        here.
+      </p>
+      <form id="destination-form" class="destinationForm">
+        <label for="destination-input">City:</label>
+        <input
+          type="text"
+          id="destination-input"
+          name=""
+          placeholder="Enter a city..."
+        />
+        <div id="destination-input-error" class="error"></div>
+        <button id="add-btn" type="submit">Add</button>
+      </form>
+
+      <div id="destinations-container"></div>
+    </template>
+
+    <template id="about">
+      <h1>About Page</h1>
+      <p>
+        This is a simple single page application for managing travel
+        destinations.
+      </p>
+    </template>
+
+    <template id="404">
+      <h1>404 - Page Not Found</h1>
+      <p>The page you are looking for does not exist</p>
+    </template>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
